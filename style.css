@@ -1,4 +1,3 @@
-/* Reset and basic styling */
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +5,8 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* Body and Background */
 body {
-  background: linear-gradient(135deg, #2b2b2b, #333333, #1f1f1f);
+  background: linear-gradient(135deg, #0d1117, #0d1117, #161b22);
   background-size: 300% 300%;
   animation: gradientAnimation 15s ease infinite;
   color: #f4f4f4;
@@ -30,35 +28,31 @@ body {
   }
 }
 
-/* Active Link Styling */
 header nav a.active {
-  color: #ff6363;
+  color: #6c5ce7;
   font-weight: bold;
-  border-bottom: 2px solid #ff6363;
+  border-bottom: 2px solid #6c5ce7;
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
-/* Smooth Transition for Links */
 header nav a {
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
-/* Section Styling */
 section {
   display: none;
   padding: 3% 10%;
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-  opacity: 0; /* Initial opacity set to 0 */
-  transition: opacity 0.5s ease; /* Smooth transition for opacity */
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 #home {
   display: block;
-  opacity: 1; /* Initial opacity set to 1 for the home section */
+  opacity: 1;
 }
 
-/* Floating Circles Animation */
 .animated-circle {
   position: absolute;
   bottom: -50px;
@@ -86,13 +80,12 @@ section {
   animation-duration: 25s;
 }
 
-/* Header Styling */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 3%;
-  background-color: #2b2b2b;
+  background-color: #0d1117;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   position: sticky;
   top: 0;
@@ -103,7 +96,7 @@ header {
 header .logo {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
-  color: #ff6363;
+  color: #6c5ce7;
   font-weight: bold;
   text-decoration: none;
   transition: transform 0.3s;
@@ -116,7 +109,7 @@ header:hover {
 
 header .logo {
   font-size: 2rem;
-  color: #ff6363;
+  color: #6c5ce7;
   font-weight: bold;
   text-decoration: none;
   transition: transform 0.3s;
@@ -136,17 +129,16 @@ header nav a {
 
 header nav a:hover,
 header nav .active {
-  color: #ff6363;
+  color: #6c5ce7;
   transform: scale(1.1);
 }
 
-/* Home Section */
 .home-section {
   display: flex;
-  align-items: center; /* Aligns content vertically centered */
-  justify-content: space-between; /* Ensures content and image are spaced apart */
+  align-items: center;
+  justify-content: space-between;
   padding: 3% 10%;
-  background-color: rgba(35, 35, 35, 0.8); /* Soft dark overlay */
+  background-color: rgba(35, 35, 35, 0.8);
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
@@ -155,7 +147,7 @@ header nav .active {
 .home-content h1 {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
-  color: #ff6363; /* Accent red for the main heading */
+  color: #6c5ce7;
   margin-bottom: 1rem;
 }
 
@@ -175,12 +167,12 @@ header nav .active {
   flex: 1;
   padding: 1.5rem;
   animation: fadeIn 1s ease-in-out;
-  text-align: left; /* Align text to the left */
+  text-align: left;
 }
 
 .home-content p {
   font-family: "Roboto", sans-serif;
-  color: #d3d3d3;
+  color: #c9d1d9;
   font-size: 1.15rem;
   line-height: 1.8;
 }
@@ -197,21 +189,21 @@ header nav .active {
 }
 .home-content h1 {
   font-size: 2.5rem;
-  color: #ff6363; /* Accent red for the main heading */
+  color: #6c5ce7;
   margin-bottom: 1rem;
 }
 
 .home-content h1 span {
-  color: #ffd700;
+  color: #fdcb6e;
 }
 .home-content h3 {
   font-size: 1.2rem;
-  color: #b8b8b8;
+  color: #c9d1d9;
   margin-bottom: 1rem;
 }
 
 .home-content p {
-  color: #d3d3d3;
+  color: #c9d1d9;
   font-size: 1.15rem;
   line-height: 1.8;
 }
@@ -221,20 +213,19 @@ header nav .active {
 }
 
 .social-icons a {
-  color: #b8b8b8;
+  color: #c9d1d9;
   margin: 0.5rem;
   font-size: 1.4rem;
   transition: color 0.3s, transform 0.3s;
 }
 
 .social-icons a:hover {
-  color: #ff6363;
+  color: #6c5ce7;
   transform: translateY(-3px);
 }
 
-/* Skills Section */
 #skills {
-  background-color: #1f1f1f;
+  background-color: #161b22;
   padding: 3% 10%;
 }
 
@@ -264,7 +255,7 @@ header nav .active {
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color: #ffd700;
+  color: #fdcb6e;
 }
 
 .bar {
@@ -278,7 +269,7 @@ header nav .active {
 .bar span {
   display: block;
   height: 100%;
-  background-color: #ff6363;
+  background-color: #6c5ce7;
   border-radius: 4px;
   width: 0;
   animation: loadBar 2s ease forwards;
@@ -293,9 +284,8 @@ header nav .active {
   }
 }
 
-/* Projects Section */
 #projects {
-  background-color: #2b2b2b;
+  background-color: #0d1117;
   padding: 3% 10%;
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -305,14 +295,14 @@ header nav .active {
 #projects h2 {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
-  color: #ff6363;
+  color: #6c5ce7;
   margin-bottom: 1rem;
   text-align: center;
 }
 
 #projects p {
   font-family: "Roboto", sans-serif;
-  color: #d3d3d3;
+  color: #c9d1d9;
   font-size: 1.15rem;
   line-height: 1.8;
   text-align: center;
@@ -334,7 +324,7 @@ header nav .active {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   font-size: 1.2rem;
-  color: #d3d3d3;
+  color: #c9d1d9;
   transition: transform 0.3s ease, background-color 0.3s ease;
   width: 250px;
   text-align: center;
@@ -346,14 +336,13 @@ header nav .active {
 }
 
 #projects li strong {
-  color: #ffd700;
+  color: #fdcb6e;
   display: block;
   margin-bottom: 0.5rem;
 }
 
-/* Contact Section */
 #contact {
-  background-color: #1f1f1f;
+  background-color: #161b22;
   padding: 3rem 10%;
   display: flex;
   justify-content: center;
@@ -363,7 +352,7 @@ header nav .active {
 #contact h2 {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
-  color: #ff6363;
+  color: #6c5ce7;
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -371,13 +360,13 @@ header nav .active {
 .contact-info h3 {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
-  color: #ffd700;
+  color: #fdcb6e;
   margin-bottom: 1rem;
 }
 
 .contact-info p {
   font-family: "Roboto", sans-serif;
-  color: #d3d3d3;
+  color: #c9d1d9;
   font-size: 1.15rem;
   line-height: 1.8;
 }
@@ -398,12 +387,12 @@ header nav .active {
 
 .contact-info h3 {
   font-size: 2rem;
-  color: #ffd700;
+  color: #fdcb6e;
   margin-bottom: 1rem;
 }
 
 .contact-info p {
-  color: #d3d3d3;
+  color: #c9d1d9;
   font-size: 1.15rem;
   line-height: 1.8;
 }
@@ -413,23 +402,21 @@ header nav .active {
 }
 
 .social-icons a {
-  color: #b8b8b8;
+  color: #c9d1d9;
   margin: 0.5rem;
   font-size: 1.4rem;
   transition: color 0.3s, transform 0.3s;
 }
 
 .social-icons a:hover {
-  color: #ff6363;
+  color: #6c5ce7;
   transform: translateY(-3px);
 }
 
-/* Smooth Scroll */
 html {
   scroll-behavior: smooth;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   header nav a {
     margin: 0 0.5rem;
@@ -471,17 +458,15 @@ html {
   }
 }
 
-/* Hover Effects for Links */
 header nav a:hover,
 header nav .active {
-  color: #ff6363;
+  color: #6c5ce7;
   transform: scale(1.1);
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* Button Hover Effect */
 button:hover {
-  background-color: #ff6363;
+  background-color: #6c5ce7;
   color: #fff;
   transform: scale(1.05);
   transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
@@ -499,16 +484,15 @@ button:hover {
   }
 }
 
-/* Testimonials Section */
 #testimonials {
-  background-color: #1f1f1f;
+  background-color: #161b22;
   padding: 3% 10%;
   text-align: center;
 }
 
 #testimonials h2 {
   font-size: 2.5rem;
-  color: #ff6363;
+  color: #6c5ce7;
   margin-bottom: 1rem;
 }
 
@@ -527,17 +511,16 @@ button:hover {
 }
 
 .testimonial-card p {
-  color: #d3d3d3;
+  color: #c9d1d9;
   font-size: 1.15rem;
   line-height: 1.8;
 }
 
 .testimonial-card h3 {
-  color: #ffd700;
+  color: #fdcb6e;
   margin-top: 1rem;
 }
 
-/* Custom Cursor */
 body {
   cursor: url("custom-cursor.png"), auto;
 }
@@ -546,16 +529,15 @@ a:hover {
   cursor: url("custom-cursor-hover.png"), auto;
 }
 
-/* Interactive Resume Section */
 #resume {
-  background-color: #2b2b2b;
+  background-color: #0d1117;
   padding: 3% 10%;
   text-align: center;
 }
 
 #resume h2 {
   font-size: 2.5rem;
-  color: #ff6363;
+  color: #6c5ce7;
   margin-bottom: 1rem;
 }
 
@@ -576,7 +558,7 @@ a:hover {
 
 .resume-details {
   display: none;
-  color: #d3d3d3;
+  color: #c9d1d9;
   font-size: 1.15rem;
   line-height: 1.8;
 }
