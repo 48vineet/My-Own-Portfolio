@@ -6,7 +6,7 @@ const sections = document.querySelectorAll("section");
 
 const hideAllSections = () => {
   sections.forEach((section) => {
-    section.style.opacity = "0"; // Set opacity to 0 for fade-out effect
+    section.style.opacity = "0"; 
     setTimeout(() => {
       section.style.display = "none"; 
     }, 500);
