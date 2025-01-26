@@ -45,18 +45,18 @@ navLinks.forEach((link) => {
   });
 });
 
-// Show the home section by default
+
 document.addEventListener("DOMContentLoaded", () => {
   const homeSection = document.querySelector("#home");
-  homeSection.style.display = "block"; // Show home section
+  homeSection.style.display = "block"; 
   setTimeout(() => {
-    homeSection.style.opacity = "1"; // Set opacity to 1 for fade-in effect
-  }, 50); // Small delay to ensure display change is applied
-  updateActiveLink("home"); // Set home link as active by default
+    homeSection.style.opacity = "1"; 
+  }, 50); 
+  updateActiveLink("home"); 
 });
 
 
-// JavaScript for Interactive Resume
+
 const resumeSections = document.querySelectorAll(".resume-section");
 
 resumeSections.forEach((section) => {
