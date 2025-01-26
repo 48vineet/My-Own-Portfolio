@@ -9,8 +9,8 @@ const hideAllSections = () => {
   sections.forEach((section) => {
     section.style.opacity = "0"; // Set opacity to 0 for fade-out effect
     setTimeout(() => {
-      section.style.display = "none"; // Hide section after fade-out
-    }, 500); // Match the duration of the fade-out effect
+      section.style.display = "none"; 
+    }, 500);
   });
 };
 
