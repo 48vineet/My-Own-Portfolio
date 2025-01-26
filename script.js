@@ -17,14 +17,14 @@ const showSection = (sectionId) => {
   hideAllSections();
   const targetSection = document.querySelector(`#${sectionId}`);
   setTimeout(() => {
-    targetSection.style.display = "block"; // Show the desired section
+    targetSection.style.display = "block"; 
     setTimeout(() => {
-      targetSection.style.opacity = "1"; // Set opacity to 1 for fade-in effect
-    }, 50); // Small delay to ensure display change is applied
-  }, 500); // Match the duration of the fade-out effect
+      targetSection.style.opacity = "1"; 
+    }, 50); 
+  }, 500); 
 };
 
-// Function to update the active link in the navigation bar
+
 const updateActiveLink = (targetId) => {
   navLinks.forEach((link) => {
     if (link.getAttribute("href").substring(1) === targetId) {
