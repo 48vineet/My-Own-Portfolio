@@ -13,9 +13,8 @@ const hideAllSections = () => {
   });
 };
 
-// Function to show the clicked section
 const showSection = (sectionId) => {
-  hideAllSections(); // Hide all sections first
+  hideAllSections();
   const targetSection = document.querySelector(`#${sectionId}`);
   setTimeout(() => {
     targetSection.style.display = "block"; // Show the desired section
