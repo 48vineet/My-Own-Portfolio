@@ -1,6 +1,5 @@
-// JavaScript for Dynamic Section Switching
 
-// Get all navigation links and sections
+
 const navLinks = document.querySelectorAll("header nav a");
 const sections = document.querySelectorAll("section");
 
