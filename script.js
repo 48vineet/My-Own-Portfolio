@@ -3,7 +3,7 @@
 const navLinks = document.querySelectorAll("header nav a");
 const sections = document.querySelectorAll("section");
 
-// Function to hide all sections
+
 const hideAllSections = () => {
   sections.forEach((section) => {
     section.style.opacity = "0"; // Set opacity to 0 for fade-out effect
