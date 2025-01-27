@@ -10,7 +10,7 @@ body {
   background-size: 300% 300%;
   animation: gradientAnimation 15s ease infinite;
   color: #f4f4f4;
-  line-height: 1.6;
+  line-height: 1.6; 
   animation: gradientAnimation 15s ease infinite;
   position: relative;
   overflow: hidden;
