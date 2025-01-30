@@ -7,7 +7,7 @@ const sections = document.querySelectorAll("section");
 const hideAllSections = () => {
   sections.forEach((section) => {
     section.style.opacity = "0"; 
-    setTimeout(() => {
+    setTimeout(() => { 
       section.style.display = "none"; 
     }, 500);
   });
