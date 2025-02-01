@@ -2,7 +2,7 @@
 
 const navLinks = document.querySelectorAll("header nav a");
 const sections = document.querySelectorAll("section");
-
+ 
 
 const hideAllSections = () => {
   sections.forEach((section) => {
