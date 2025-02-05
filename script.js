@@ -8,7 +8,7 @@ const hideAllSections = () => {
   sections.forEach((section) => {
     section.style.opacity = "0"; 
     setTimeout(() => { 
-      section.style.display = "none"; 
+      section.style.display = "none";  
     }, 500);
   });
 }; 
