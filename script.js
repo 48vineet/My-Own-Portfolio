@@ -11,7 +11,7 @@ const hideAllSections = () => {
       section.style.display = "none";  
     }, 500);
   });
-}; 
+};  
 
 const showSection = (sectionId) => {
   hideAllSections();
